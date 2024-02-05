@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Asserts/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-white content py-5 px-3">
+        <form >
+
+            <div class="mt-4 j-bt">
+                <label for="name" class="">Name</label>
+                <input type="text" placeholder="Xxxx X" class="" id="name">
+                <span id="name-error"></span>
+            </div>
+                
+            
+            <div class="mt-4 j-bt">
+                <label for="Phno" class="">Phone Number</label>
+                <input type="text" placeholder="12345 69877" class="" id="Phno">
+                <span id="num-error"></span>
+            </div>
+            <div class="mt-4 j-bt">
+                <label for="Email" class="">Email id</label>
+                <input type="email" placeholder="xxxxxx@gmail.com" class="" id="Email">
+                <span id="mail-error"></span>
+            </div>
+
+            <div class="mt-4 j-bt">
+                <label for="Message" class="">Your Message</label>
+                <textarea placeholder="Your Message" id="Message" class="" rows="3"></textarea>
+                <span id="Textarea-error"></span>
+            </div>
+            <div class="mt-4 j-ct wt">
+                <button type="button" class="btn">Submit</button>
+            </div>
+            <span id="submit-error"></span>
+        </form>
+    </div>
+    
+    <script src="action.js"></script>
+    <script src="Asserts/action1.js"></script>
+</body>
+</html>
